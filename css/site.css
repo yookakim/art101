@@ -3,13 +3,19 @@ header {
   width: 1000px;
   background-color: lightgray;
 }
+
 header h1 {
   padding: 20px;
 }
+
+header h2 {
+  padding: 20px;
+}
+
 main {
   margin: auto;
   width: 1000px;
-  height: 1000px;
+  height: auto;
   background-color: lightgray;
   background-clip: padding-box;
 }
