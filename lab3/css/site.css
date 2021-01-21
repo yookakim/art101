@@ -3,9 +3,6 @@ header {
   width: 1000px;
   background-color: lightgray;
 }
-header h1 {
-  padding: 20px;
-}
 main {
   margin: auto;
   width: 1000px;
@@ -18,10 +15,7 @@ main {
   padding: 20px;
 }
 
-#introduction {
-  width: 400px;
-}
-
 #selfpicture {
   max-width: 400px;
+  float: right;
 }
