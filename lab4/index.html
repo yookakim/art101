@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4: Pseudocoding and Problem-solving</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="js/lab4.js"></script>
 </head>
 <body>
-
+	<header>
+		<h1>Lab 4: Pseudocoding and Problem-solving</h1>
+		<h2>Yooha Kim, Jacob Hanshaw</h2>
+	</header>
+	<main>
+		<div id="content">
+			<div id="Challenge">
+				<h2>Challenge</h2>
+				<p>To learn the concept and practicality behind creating instructional pseudocode for both IRL and computer tasks, and learn to format these instructions in HTML.</p>
+			</div>
+			<div id="Problems">
+				<h2>Problems</h2>
+				<p>The biggest problem with this assignment was probably figuring out some of the quirks for Ordered and Unordered lists. I was stuck for a period of time trying to set bullet styles for nested lists, which came out without a bullet/letter at all, after which we figured out that I wasn't closing some li tags, and mistyping/misspelling inline style attributes.</p>
+			</div>
+			<div id="Results">
+				<h2>Results</h2>
+				<h3>Task 1: Pseudocode an everyday task</h3>
+				<h4>Mailing a letter</h4>
+				<ol>
+					<li>
+						Choose envelope type and size for your letter.
+						<ol style="list-style-type:lower-alpha">
+							<li>Choose an envelope size that will easily fit your contents. Make sure your letter is made out of strong enough material to withstand the trip.</li>
+						</ol>
+					</li>
+					<li>
+						Write the message you would like to send.
+					</li>
+					<li>
+						Put your message into the envelope and seal.
+					</li>
+					<li>
+						Address your letter.
+						<ol style="list-style-type:lower-alpha">
+							<li>On the envelope in the bottom center write the address of the recipient along with their name, city, state, and zip code. Then in the top left write your address and your name with your city, state, and zip code.</li>
+						</ol>
+					</li>
+					<li>
+						Calculate the postage.
+						<ol style="list-style-type:lower-alpha">
+							<li>Find out the destination and weight to properly get the right amount of stamps.</li>
+						</ol>
+					</li>
+					<li>
+						Apply the postage stamps to the top right corner.
+					</li>
+					<li>
+						Ship your letter to the recipient.
+						<ol style="list-style-type:lower-alpha">
+							<li>Either put it in your mailbox and set the mailbox flag up or drop it off in a blue collection box. If those are not around take it directly to the post office lobby drop.</li>
+						</ol>
+					</li>
+				</ol>
+				<h3>Task 2: Pseudocode a computer task</h3>
+				<h4>Guessing Game</h4>
+				<ol>
+					<li>
+						Ask the player to input a number range for the computer to choose a random number from
+						<ol style="list-style-type:lower-alpha">
+							<li>Display input text field where player determines number range</li>
+							<li>Store the inputted minimum and maximum values into memory as range variables</li>
+						</ol>
+					</li>
+					<li>
+						Choose a random number and store into memory as computer number
+					</li>
+					<li>
+						Ask the player to make a guess for the stored number
+						<ol style="list-style-type:lower-alpha">
+							<li>Display input text field asking for the player’s guess</li>
+						</ol>
+					</li>
+					<li>
+						Receive player input and store into memory as player number
+					</li>
+					<li>
+						Compare the player number with the computer number
+					</li>
+					<li>
+						Notify player of victory if the numbers are matching. If numbers are not matching, notify player of defeat
+					</li>
+					<li>
+						Ask and wait for any player input, then start over from step 1 upon input
+						<ol style="list-style-type:lower-alpha">
+							<li>Clear and reset variables and UI fields when starting over</li>
+						</ol>
+					</li>
+				</ol>
+				<h3>Task 3: Turn pseudocode into comments</h3>
+				<h4>Javscript Comments:</h4>
+				<pre id="jscomment">// Ask the player to input a number range for the computer to choose a random number from
+	// Display input text field where player determines number range
+	// Store the inputted minimum and maximum values into memory as range variables
+// Choose a random number and store into memory as computer number
+// Ask the player to make a guess for the stored number
+	// Display input text field asking for the player’s guess
+// Receive player input and store into memory as player number
+// Compare the player number with the computer number
+// Notify player of victory if the numbers are matching. If numbers are not matching, notify player of defeat
+// Ask and wait for any player input, then start over from step 1 upon input
+	// Clear and reset variables and UI fields when starting over
+				</pre>
+			</div>
+		</div>
+	</main>
 </body>
 </html>
