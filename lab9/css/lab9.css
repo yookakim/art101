@@ -1,0 +1,15 @@
+.output {
+  font-family: courier;
+}
+
+p {
+  font-family: arial;
+}
+
+h1, h2 {
+  font-family: georgia;
+}
+
+#Results {
+  background-image: linear-gradient(rgba(216, 189, 233, 1), rgb(130, 119, 171, 1));
+}
