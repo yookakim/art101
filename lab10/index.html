@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 10: JavaScript Events and Forms</title>
+	<script src="js/lab10.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+<body>
+	<header>
+		<h1>Lab 10: JavaScript Events and Forms</h1>
+		<h2>Yooha Kim</h2>
+	</header>
+	<main>
+		<div id="content">
+			<div id="Input">
+				<form>
+					<label for="user-name">Input your name: </label>
+					<input type="text" id="user-name"><br>
+					<label for="my-button">Sort the name!</label>
+					<input type="button" id="my-button">
+				</form>
+			</div>
+			<div id="Challenge">
+				<h2>Challenge</h2>
+				<p>The challenge for this lab was to explore several more input features javascript has that we can use to change the web page dynamically.</p>
+			</div>
+			<div id="Problems">
+				<h2>Problems</h2>
+				<p>One problem I had was figuring out how to refactor my previous sortName method to work with a more dynamic, eventListener based function. I changed the input for the function to read from the input field value, and then directly changed the output div from within the function.</p>
+			</div>
+			<div id="Results">
+				<h2>Results</h2>
+				<p>Script output:</p>
+				<div id="output">
+
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
