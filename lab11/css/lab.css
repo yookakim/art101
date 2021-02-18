@@ -1,0 +1,23 @@
+.output {
+  font-family: courier;
+}
+
+.section {
+  font-family: arial;
+}
+
+.specialChallenge {
+  background-color: red;
+  font-family: verdana;
+}
+
+.specialProblems {
+  background-color: green;
+  font-family: times;
+}
+
+.specialResults {
+  background-color: blue;
+  font-family: georgia;
+  color: white;
+}
