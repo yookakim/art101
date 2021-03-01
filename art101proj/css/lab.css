@@ -1,0 +1,47 @@
+header {
+  margin: auto;
+  width: 1000px;
+  background-color: lightgray;
+}
+
+header h1 {
+  padding: 20px;
+}
+
+header h2 {
+  padding: 20px;
+}
+
+main {
+  margin: auto;
+  width: 1000px;
+  height: auto;
+  background-color: lightgray;
+  background-clip: padding-box;
+}
+
+#content {
+  background-color: limegreen;
+  padding: 20px;
+}
+
+.plantimage {
+  max-width: 200px;
+}
+
+#plantselection button {
+  height: 200px;
+  width: 200px;
+}
+
+#button {
+  background: url(../images/projectimages/pothos.jpg) no-repeat;
+}
+
+#button2 {
+  background: url("../images/projectimages/pothos.jpg");
+}
+
+#button3 {
+
+}
