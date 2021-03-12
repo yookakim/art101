@@ -22,6 +22,17 @@ main {
 
 #content {
   padding: 20px;
+  display: inline-flex;
+}
+
+#left-panel {
+  width: 500px;
+}
+
+#right-panel {
+  width: 500px;
+  
+  padding: 15px;
 }
 
 #introduction {
